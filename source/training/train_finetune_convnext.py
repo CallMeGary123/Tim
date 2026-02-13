@@ -165,6 +165,7 @@ def train_model():
     cm = confusion_matrix(all_labels, all_preds)
     plt.figure(figsize=(12, 10))
     sns.heatmap(cm, annot=False, cmap='Reds', xticklabels=class_names, yticklabels=class_names)
+    plt.title(f'Confusion Matrix: {MODEL_NAME}')
     plt.savefig(f"{CHARTS_DIR}/confusion_matrix.png")
     
     print(f"\nTraining complete. Results saved in {RESULTS_DIR}\nCharts saved in {CHARTS_DIR}\n\nModel saved in models")
