@@ -35,6 +35,43 @@ Raphael,109
 Joan Miro,102
 Andrei Rublev,99
 ```
+## Models
+Tim uses the following models and finetunes them on our dataset.
+<table style="width:100%; border-collapse: collapse; margin: 25px 0; font-family: sans-serif; min-width: 400px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);">
+    <thead>
+        <tr style="background-color: #2c3e50; color: #ffffff; text-align: left;">
+            <th style="padding: 12px 15px;">Architecture</th>
+            <th style="padding: 12px 15px;">Version</th>
+            <th style="padding: 12px 15px;">Parameters</th>
+            <th style="padding: 12px 15px;">Approx. Size</th>
+            <th style="padding: 12px 15px;">GFLOPs</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="border-bottom: 1px solid #dddddd;">
+            <td style="padding: 12px 15px;"><b>ResNet</b></td>
+            <td style="padding: 12px 15px;">ResNet-50</td>
+            <td style="padding: 12px 15px;">25.6M</td>
+            <td style="padding: 12px 15px;">~98 MB</td>
+            <td style="padding: 12px 15px;">4.1</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #dddddd; background-color: #f3f3f3;">
+            <td style="padding: 12px 15px;"><b>EfficientNet</b></td>
+            <td style="padding: 12px 15px;">B0</td>
+            <td style="padding: 12px 15px;">5.3M</td>
+            <td style="padding: 12px 15px;">~20 MB</td>
+            <td style="padding: 12px 15px;">0.39</td>
+        </tr>
+        <tr style="border-bottom: 2px solid #2c3e50;">
+            <td style="padding: 12px 15px;"><b>ConvNeXt</b></td>
+            <td style="padding: 12px 15px;">Tiny</td>
+            <td style="padding: 12px 15px;">28.6M</td>
+            <td style="padding: 12px 15px;">~110 MB</td>
+            <td style="padding: 12px 15px;">4.5</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Setup and Requirements
 - 1- Create a virutal environment with the following command.
 `python -m venv .venv`
