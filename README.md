@@ -6,7 +6,7 @@ name,paintings
 Vincent van Gogh,877
 Edgar Degas,702
 Pablo Picasso,439
-Pierre-Auguste Renoir
+Pierre-Auguste Renoir,336
 Albrecht Dürer,328
 Paul Gauguin,311
 Francisco Goya,291
