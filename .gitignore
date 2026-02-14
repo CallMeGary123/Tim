@@ -1,4 +1,5 @@
 Data/processed
 Data/raw
-*.csv
+Data/artists.csv
 *.zip
+*.pth
