@@ -1,5 +1,7 @@
 # Tim! (Art Classifier with Grad-Cam Explainability)
 Tim is an art classifier which is finetuned on the [Best Artworks of All Time](https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time) dataset. (Only including artists with 99 paintings or more)
+
+The official name of the project was "An Automated Approach to Artist Classification Using DL With the Help of Classical Principles" which is quite a mouthful so instead I settled on "Tim". Partly because of my love for [Tim the Enchanter](https://montypython.fandom.com/wiki/Tim_the_Enchanter).
 ## Artists
 ```
 name,paintings
@@ -127,7 +129,7 @@ Now you can run any of the scirpts in the `source\training` or `source\experimen
 ## Notebooks and Documents
 The [EDA](https://github.com/CallMeGary123/AI-FinalProject-Alireza-Alizadeh/blob/master/notebooks/EDA.ipynb), [Training results](https://github.com/CallMeGary123/AI-FinalProject-Alireza-Alizadeh/blob/master/notebooks/training_results.ipynb) and [Experiments results](https://github.com/CallMeGary123/AI-FinalProject-Alireza-Alizadeh/blob/master/notebooks/experiments_results.ipynb) notbooks which explore our data and results have been uploaded post-exec and the outputs can be examined.
 
-Additionally reports for phase 1 and phase 2 are available at the [documents](https://github.com/CallMeGary123/AI-FinalProject-Alireza-Alizadeh/tree/master/documents) folder.
+Additionally reports for phase 1 and phase 2 are available in the [documents](https://github.com/CallMeGary123/AI-FinalProject-Alireza-Alizadeh/tree/master/documents) folder.
 ## Demo
 To demo your trained models run the following notebook. `notebooks\interactive_demo.ipynb`
 
